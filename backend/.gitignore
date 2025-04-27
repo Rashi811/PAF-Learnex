@@ -4,11 +4,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# Allow application.properties
-!src/main/resources/application.properties
-/backend/src/main/resources/application.properties
-
-
 ### STS ###
 .apt_generated
 .classpath
