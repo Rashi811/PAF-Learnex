@@ -1,4 +1,5 @@
-/* Clean Minimalist Card-Style Navbar */
+/* Modern Card-Style Navbar with Updated Background Color */
+
 .card-navbar {
   position: fixed;
   top: 0;
@@ -6,7 +7,10 @@
   right: 0;
   z-index: 1000;
   padding: 12px 16px;
-  transition: transform 0.3s ease;
+  background: #4f46e5; /* Updated background color */
+  color: white; /* Ensure text is visible on dark background */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .card-navbar.visible {
@@ -20,14 +24,10 @@
 .navbar-inner {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-  padding: 0 16px;
-  height: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 16px;
 }
 
 /* Logo Section */
@@ -40,8 +40,8 @@
 .logo-mark {
   width: 32px;
   height: 32px;
-  background-color: #4f46e5;
-  color: white;
+  background-color: white; /* Contrast for the logo */
+  color: #4f46e5; /* Match the navbar color */
   border-radius: 6px;
   display: flex;
   align-items: center;
@@ -53,7 +53,7 @@
 .logo-text {
   font-size: 19px;
   font-weight: 700;
-  color: #333;
+  color: white; /* Ensure logo text is visible */
   margin-left: 12px;
 }
 
@@ -71,7 +71,7 @@
   border-radius: 6px;
   font-size: 15px;
   font-weight: 500;
-  color: #555;
+  color: white; /* Ensure links are visible */
   background: none;
   border: none;
   cursor: pointer;
@@ -79,13 +79,13 @@
 }
 
 .nav-link:hover {
-  background-color: #f5f5f5;
-  color: #4f46e5;
+  background-color: rgba(255, 255, 255, 0.2); /* Subtle hover effect */
+  color: white;
 }
 
 .nav-link.active {
-  background-color: #ededfb;
-  color: #4f46e5;
+  background-color: rgba(255, 255, 255, 0.3); /* Active link background */
+  color: white;
   font-weight: 600;
 }
 
@@ -106,25 +106,24 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: #555;
+  color: white; /* Ensure icons are visible */
   font-size: 20px;
   transition: all 0.2s ease;
   position: relative;
 }
 
 .icon-button:hover {
-  background-color: #f5f5f5;
-  color: #4f46e5;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
 }
 
 .icon-button.active {
-  background-color: #ededfb;
-  color: #4f46e5;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 
 .notification-indicator {
   position: relative;
-  color: #4f46e5;
 }
 
 .indicator-dot {
@@ -135,9 +134,10 @@
   height: 8px;
   background-color: #ef4444;
   border-radius: 50%;
+  border: 2px solid #4f46e5; /* Match navbar background */
 }
 
-/* Profile dropdown styles - simplified and focused */
+/* Profile Dropdown */
 .profile-dropdown {
   position: relative;
 }
@@ -149,7 +149,7 @@
   width: 180px;
   background-color: white;
   border-radius: 4px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -161,6 +161,7 @@
   padding: 10px 16px;
   color: #333;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .menu-item:hover {
@@ -191,7 +192,7 @@
   color: #e53e3e;
 }
 
-/* Fix profile button - remove all borders and shadows */
+/* Profile Button */
 .user-profile {
   width: 38px;
   height: 38px;
@@ -207,14 +208,6 @@
   justify-content: center;
   box-shadow: none;
   transition: none;
-}
-
-.user-profile:hover,
-.user-profile:focus {
-  transform: none;
-  box-shadow: none;
-  border: none;
-  outline: none;
 }
 
 .user-profile img {
@@ -241,14 +234,13 @@
 .menu-toggle span {
   width: 100%;
   height: 2px;
-  background-color: #555;
+  background-color: white; /* Match navbar color */
   border-radius: 2px;
   transition: all 0.3s ease;
 }
 
 .menu-toggle.open span:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-  background-color: #4f46e5;
 }
 
 .menu-toggle.open span:nth-child(2) {
@@ -257,7 +249,6 @@
 
 .menu-toggle.open span:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-  background-color: #4f46e5;
 }
 
 .mobile-menu {
@@ -318,7 +309,7 @@
   .nav-links {
     display: none;
   }
-  
+
   .menu-toggle {
     display: flex;
   }
@@ -328,7 +319,7 @@
   .logo-text {
     display: none;
   }
-  
+
   .navbar-inner {
     padding: 0 12px;
   }

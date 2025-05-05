@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import NavBar from '../../Components/NavBar/NavBar';
-import '../PostManagement/AddNewPost.css'; // Reusing the same CSS
+import './AddAchievements.css';
 
 function AddAchievements() {
   const [formData, setFormData] = useState({

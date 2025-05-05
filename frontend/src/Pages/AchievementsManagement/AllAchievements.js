@@ -3,7 +3,7 @@ import { FaEdit } from "react-icons/fa";
 import { RiDeleteBin6Fill } from "react-icons/ri";
 import NavBar from '../../Components/NavBar/NavBar'
 import { IoIosCreate } from "react-icons/io";
-import '../PostManagement/AllPost.css'; // Import the same CSS for consistent styling
+import './AllAchievements.css';
 
 // Add custom styles for achievements dropdown only
 const achievementStyles = {

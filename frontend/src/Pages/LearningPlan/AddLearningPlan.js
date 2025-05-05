@@ -11,6 +11,7 @@ import { HiCalendarDateRange } from "react-icons/hi2";
 import { MdOutlineCategory } from "react-icons/md";
 import { FaTags } from "react-icons/fa";
 import { RiCalendarEventLine } from "react-icons/ri";
+import './AddLearningPlan.css';
 
 function AddLearningPlan() {
   const [title, setTitle] = useState('');
