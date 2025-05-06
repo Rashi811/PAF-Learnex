@@ -1,0 +1,193 @@
+/* Main layout */
+.notifications-page {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.notifications-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+/* Header styling */
+.notifications-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.notifications-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.notification-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 600;
+  height: 1.5rem;
+  min-width: 1.5rem;
+  padding: 0 0.5rem;
+  border-radius: 9999px;
+  margin-left: 0.75rem;
+}
+
+/* Notifications list */
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Empty state styling */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.empty-icon {
+  font-size: 4rem;
+  color: #d1d5db;
+  margin-bottom: 1rem;
+}
+
+.empty-state h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 0.5rem 0;
+}
+
+.empty-state p {
+  color: #6b7280;
+  font-size: 0.875rem;
+  max-width: 24rem;
+  margin: 0;
+}
+
+/* Notification card styling */
+.notification-card {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.25rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.notification-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.notification-card.unread {
+  background-color: #f0f7ff;
+}
+
+/* Notification indicator dot */
+.notification-indicator {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  margin-right: 1rem;
+  margin-top: 0.375rem;
+}
+
+.notification-indicator.unread-dot {
+  background-color: #3b82f6;
+  border-radius: 50%;
+}
+
+/* Content styling */
+.notification-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.notification-message {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.notification-time {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+/* Action buttons */
+.notification-actions {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #6b7280;
+  transition: all 0.2s ease;
+  padding: 0;
+  margin-left: 0.5rem;
+}
+
+.action-button:hover {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.action-button:focus {
+  outline: 2px solid #d1d5db;
+  outline-offset: 2px;
+}
+
+.read-button:hover {
+  color: #4f46e5;
+}
+
+.delete-button:hover {
+  color: #ef4444;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .notifications-container {
+    padding: 0 1rem;
+    margin: 1rem auto;
+  }
+
+  .notifications-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .notification-card {
+    padding: 1rem;
+  }
+}
