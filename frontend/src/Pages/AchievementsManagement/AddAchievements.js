@@ -13,7 +13,7 @@ function AddAchievements() {
     postOwnerName: '',
   });
   const [images, setImages] = useState([]);
-  const [imagePreviews, setImagePreviews] = useState([]);
+  const [imagePreviews, setImagePreviews] = useState([]); 
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
   const MAX_IMAGES = 3;
