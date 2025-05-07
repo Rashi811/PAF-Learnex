@@ -33,7 +33,7 @@ function AddLearningPlan() {
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     setImage(file);
-    setImagePreview(file ? URL.createObjectURL(file) : null);
+    setImagePreview(file ? URL.createObjectURL(file) : null);  
   };
 
   const navigate = useNavigate();
