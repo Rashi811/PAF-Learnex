@@ -115,6 +115,7 @@ function NavBar() {
                         Achievements
                     </button>
                 </div>
+
                 
                 {/* User Actions */}
                 <div className="user-actions">
@@ -225,6 +226,7 @@ function NavBar() {
             </div>
         </div>
     );
+    
 }
 
 export default NavBar;
