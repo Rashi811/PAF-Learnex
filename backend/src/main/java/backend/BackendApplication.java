@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
-import java.util.Properties;
+import java.util.Properties; 12
 import org.springframework.context.annotation.Configuration;
 @SpringBootApplication(
 		exclude = {
