@@ -54,6 +54,7 @@ function AddNewPost() {
             return; // Instead of reloading, just exit
           }
         };
+        
       } else {
         alert(`Unsupported file type: ${file.type}`);
         return; // Exit early
