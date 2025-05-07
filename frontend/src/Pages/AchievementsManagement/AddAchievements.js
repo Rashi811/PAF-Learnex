@@ -19,7 +19,7 @@ function AddAchievements() {
   const MAX_IMAGES = 3;
 
   const handleImageChange = (e) => {
-    const files = Array.from(e.target.files);
+    const files = Array.from(e.target.files); 
     
     if (files.length > 0) {
       setErrorMessage('');

@@ -72,7 +72,7 @@ function UpdateAchievements() {
       setSelectedFiles(prev => [...prev, ...filesToAdd]);
       
       // Create new preview URLs
-      const newPreviews = filesToAdd.map(file => URL.createObjectURL(file));
+      const newPreviews = filesToAdd.map(file => URL.createObjectURL(file));  
       setPreviewImages(prev => [...prev, ...newPreviews]);
     }
   };
