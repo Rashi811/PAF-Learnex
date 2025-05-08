@@ -689,6 +689,7 @@
 }
 
 /* Responsive adjustments */
+
 @media (max-width: 768px) {
   .alt-content-wrapper {
     padding: 12px;
@@ -711,5 +712,5 @@
   .alt-media-item {
     height: 180px;
   }
-  
+
 }
