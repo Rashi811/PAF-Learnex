@@ -165,6 +165,7 @@ function UpdatePost() {
       console.error('Error updating post:', error);
       alert('Failed to update post.');
     }
+    
   };
 
   if (loading) {
