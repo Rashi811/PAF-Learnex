@@ -68,6 +68,7 @@ function AllPost() {
       } catch (error) {
         console.error('Error fetching posts:', error); // Log error for fetching posts
       }
+
     };
 
     fetchPosts();
@@ -620,6 +621,7 @@ function AllPost() {
       </Modal>
     </div>
   );
+  
 }
 
 export default AllPost;
