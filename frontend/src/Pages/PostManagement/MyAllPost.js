@@ -16,6 +16,7 @@ import { FaCommentAlt } from "react-icons/fa";
 import './AllPost.css'; // Make sure to use the same CSS file
 Modal.setAppElement('#root');
 
+
 function MyAllPost() {
   const [posts, setPosts] = useState([]);
   const [filteredPosts, setFilteredPosts] = useState([]);
