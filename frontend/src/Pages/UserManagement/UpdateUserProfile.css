@@ -5,7 +5,7 @@
 .tags-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 8.01px;
   margin-bottom: 12px;
 }
 
