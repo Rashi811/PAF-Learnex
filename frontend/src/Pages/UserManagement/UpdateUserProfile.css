@@ -107,7 +107,7 @@
   background-color: #3a56e0;
 }
 
-/* Media query for smaller screens */
+/* Media query for smaller screens.. */
 @media (max-width: 768px) {
   .form-actions {
     flex-direction: column;
