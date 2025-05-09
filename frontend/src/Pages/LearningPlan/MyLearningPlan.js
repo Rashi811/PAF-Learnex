@@ -150,7 +150,7 @@ function MyLearningPlan() {
         
       case 2:
         return (
-          <div className="template-2">
+          <div className="template-2">  
             <div className="user-header">
               <div className="owner-name">
                 <div className="owner-avatar">{ownerInitials}</div>
