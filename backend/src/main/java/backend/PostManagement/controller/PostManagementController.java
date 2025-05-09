@@ -67,7 +67,6 @@ public class PostManagementController {
                 return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Failed to create upload directory.");
             }
         }
-
         List<String> mediaUrls = mediaFiles.stream()
                 .filter(file -> file.getContentType().matches("image/(jpeg|png|jpg)|video/mp4"))
                 .map(file -> {
