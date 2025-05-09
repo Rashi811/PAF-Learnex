@@ -55,6 +55,7 @@ function AddNewPost() {
           }
         };
         
+        
       } else {
         alert(`Unsupported file type: ${file.type}`);
         return; // Exit early
