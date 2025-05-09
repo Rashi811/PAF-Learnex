@@ -236,6 +236,7 @@
 }
 
 /* Responsive styles */
+
 @media (max-width: 768px) {
   .post-form-card {
     padding: 30px 20px;
