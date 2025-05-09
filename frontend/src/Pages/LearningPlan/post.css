@@ -15,10 +15,11 @@
 .image_card{
   width: 100%;
 }
-.newpart_set_icon{  
+.newpart_set_icon{   
   font-size: 25px;
   cursor: pointer;
   color: #004c5d;
+  
 }
 .newpart_set{
   display: flex;
