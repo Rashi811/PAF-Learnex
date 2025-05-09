@@ -83,7 +83,6 @@ function MyAllPost() {
           console.error('Error fetching followed users:', error);
         }
       }
-      
     };
 
     fetchFollowedUsers();
