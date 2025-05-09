@@ -1,0 +1,245 @@
+.alt-posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .alt-content-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .alt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .alt-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .alt-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .alt-search-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .alt-search-input {
+    padding: 10px 40px 10px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .alt-search-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .alt-search-icon {
+    position: absolute;
+    right: 10px;
+    color: #666;
+  }
+  
+  .create-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .alt-empty-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .alt-empty-illustration {
+    font-size: 4rem;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .alt-empty-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .alt-empty-desc {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .alt-empty-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .alt-empty-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .alt-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .alt-post {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .alt-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .alt-post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .alt-post-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .alt-user-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .alt-user-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .alt-post-category {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .alt-post-options {
+    position: relative;
+  }
+  
+  .alt-dots {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .alt-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    overflow: hidden;
+  }
+  
+  .alt-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .alt-dropdown-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .alt-dropdown-item.delete {
+    color: #d9534f;
+  }
+  
+  .alt-post-body {
+    padding: 15px;
+  }
+  
+  .alt-post-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .alt-post-text {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .alt-media-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #f9f9f9;
+  }
+  
+  .alt-image-wrapper img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
