@@ -1,5 +1,6 @@
 /* Main layout */
 .notifications-page {
+  margin-top: 70px;
   min-height: 100vh;
   background-color: #f9fafb;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;

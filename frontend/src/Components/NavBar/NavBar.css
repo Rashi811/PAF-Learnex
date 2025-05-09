@@ -208,6 +208,7 @@
   justify-content: center;
   box-shadow: none;
   transition: none;
+  margin-left: 50px;
 }
 
 .user-profile img {
@@ -216,6 +217,7 @@
   object-fit: cover;
   border: none;
   border-radius: 50%;
+  
 }
 
 /* Mobile Menu */
