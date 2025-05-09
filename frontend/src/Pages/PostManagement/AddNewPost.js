@@ -28,7 +28,6 @@ function AddNewPost() {
         alert(`File ${file.name} exceeds the maximum size of 50MB.`);
         return; // Exit early instead of reloading
       }
-
       if (file.type.startsWith('image/')) {
         imageCount++;
         if (imageCount > 3) {
