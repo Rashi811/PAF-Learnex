@@ -251,5 +251,4 @@ function UpdateUserProfile() {
     </div>
   );
 }
-
 export default UpdateUserProfile;
