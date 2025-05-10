@@ -104,7 +104,7 @@
 
 /* Notification indicator dot */
 .notification-indicator {
-  width: 12px;
+  width: 12.0px;
   height: 12px;
   flex-shrink: 0;
   margin-right: 1rem;
