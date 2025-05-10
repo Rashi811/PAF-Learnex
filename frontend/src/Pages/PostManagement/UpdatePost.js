@@ -29,6 +29,7 @@ function UpdatePost() {
         alert('Failed to fetch post details.');
         setLoading(false); // Set loading to false even if there's an error
       }
+
     };
 
     fetchPost();
