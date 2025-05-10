@@ -15,7 +15,7 @@
 .notifications-header {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.0rem;
 }
 
 .notifications-header h1 {
