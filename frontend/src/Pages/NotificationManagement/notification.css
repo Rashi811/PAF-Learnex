@@ -84,7 +84,7 @@
 .notification-card {
   display: flex;
   align-items: flex-start;
-  padding: 1.25rem;
+  padding: 1.250rem;
   background-color: white;
   border-radius: 12px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
