@@ -270,6 +270,7 @@ public class UserController {
             message.setSubject("Your Verification Code");
             message.setText("Your verification code is: " + code);
             mailSender.send(message);
+            
 
             return ResponseEntity.ok(Map.of("message", "Verification code sent successfully."));
         } catch (Exception e) {
