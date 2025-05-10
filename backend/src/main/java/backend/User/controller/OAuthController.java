@@ -50,6 +50,7 @@ public class OAuthController {
             encodedGoogleProfileImage // Use the encoded URL
         );
 
+        
         return new RedirectView(redirectUrl);
     }
     
